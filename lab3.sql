@@ -60,7 +60,7 @@ END;
 /
 
 -- zad.8
-UPDATE dokumenty SET dokument = BFILENAME('TPD_DIR','dokument.txt')
+UPDATE dokumenty SET dokument = TO_CLOB(BFILENAME('TPD_DIR','dokument.txt'))
 WHERE id=3;
 
 -- zad.9
