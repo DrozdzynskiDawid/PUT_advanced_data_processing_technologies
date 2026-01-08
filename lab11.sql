@@ -221,4 +221,5 @@ drop table quotes;
 BEGIN
     CTX_DDL.DROP_PREFERENCE('moj_lekser');
     CTX_DDL.DROP_SECTION_GROUP('moje_sekcje');
+
 END;
