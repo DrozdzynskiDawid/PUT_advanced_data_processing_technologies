@@ -1,0 +1,10 @@
+Pytanie 1:
+Indeks Lucene zawierają pliki z rozszerzeniami: cfe, cfs oraz si. Jest także plik segments oraz write_lock.
+
+Pytanie 2:
+Po uruchomieniu programu Index.java dwukrotnie pojawiły się nowe pliki z indeksami, a wyszukiwanie zwraca zduplikowane dokumenty np. dla wyszukiwania w tytule słowa "test":
+Found 4 matching docs.
+1. 123	Test
+2. 123	Test
+3. 333	Test dokumentu
+4. 333	Test dokumentu
